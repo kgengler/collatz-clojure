@@ -1,5 +1,7 @@
 # collatz-clojure
 
+[![Build Status](https://travis-ci.org/kgengler/collatz-clojure.svg?branch=master)](https://travis-ci.org/kgengler/collatz-clojure)
+
 Takes a number and calculates the number of steps to reach 1 using steps 
 outlined in the Collatz Conjecture.
 
