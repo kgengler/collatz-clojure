@@ -8,6 +8,7 @@ see https://en.wikipedia.org/wiki/Collatz_conjecture
 ## Build
 
 `lein compile`
+
 `lein uberjar`
 
 ## Run
