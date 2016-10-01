@@ -11,6 +11,10 @@ see https://en.wikipedia.org/wiki/Collatz_conjecture
 
 `lein uberjar`
 
+## Test
+
+`lein test`
+
 ## Run
 
 `java -jar target/uberjar/collatz-clojure-${VERSION}-standalone.jar ${INPUT}`
