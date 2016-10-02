@@ -19,7 +19,7 @@
   ([n, acc]
     (if (= 1 n)
       acc
-      (collatz (hotpo n) (+ 1 acc)))))
+      (recur (hotpo n) (+ 1 acc)))))
 
 (defn -main
   "Run collatz function for first arg"
