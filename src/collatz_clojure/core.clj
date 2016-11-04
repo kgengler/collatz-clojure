@@ -11,7 +11,7 @@
   [n]
   (if (even? n)
     (/ n 2)
-    (+ 1 (* 3 n))))
+    (inc (* 3 n))))
 
 (defn collatz 
   "Calculate number of steps to reach 1 for number n using Collatz conjecture"
@@ -19,7 +19,7 @@
   ([n, acc]
     (if (= 1 n)
       acc
-      (recur (hotpo n) (+ 1 acc)))))
+      (recur (hotpo n) (inc acc)))))
 
 (defn -main
   "Run collatz function for first arg"
