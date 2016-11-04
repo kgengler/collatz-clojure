@@ -9,7 +9,7 @@
 (defn hotpo
   "If n is even, divide it by 2, otherwise multiply it by 3 and add 1"
   [n]
-  (if (= 0 (mod n 2))
+  (if (even? n)
     (/ n 2)
     (+ 1 (* 3 n))))
 
